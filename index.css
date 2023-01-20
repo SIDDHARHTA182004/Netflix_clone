@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    /* background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)); */
+    background-repeat: no-repeat;
+}
+
+
+
+.header{
+    height: 2900px;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7cee2527-d2cc-4cc9-99f6-d1375e72d46e/eb83fa55-ab10-476a-b103-499eb7c6e022/IN-en-20230103-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 1000px 500px 500px black; */
+}
+
+.nav{
+    height: 400px;
+    width: 100%;
+    /* background-color: black; */
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.navright{
+    height: 300px;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-left: 1400px;
+    padding-right: 50px;   
+}
+.box1{
+    height:150px;
+    width:350px;
+    border-radius: 10px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:white;
+    background-color: rgb(90, 90, 90);
+    color: aliceblue;
+    justify-content: space-between;
+
+}
+.box2{
+    height:150px;
+    width:350px;
+    font-size: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    color: aliceblue;
+    background-color: red;
+    padding-left: 50px;
+}
+
+.body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.innerbody{
+    height: 2100px;
+    width: 3200px;
+    /* background-color: black; */
+    font-size: 300px;
+    padding-left: 180px;
+    padding-top: 500px;
+}
+
+.innerp{
+    padding-left: 330px;
+}
+
+.innerp2{
+    font-size: 110px; 
+    display: flex;
+    justify-content: center;
+    padding-right: 360px;
+    padding-top: 80px;
+}
+
+.innerp3{
+    font-size:90px ;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-right: 190px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+
+.innersearch{
+    height: 300px;
+    width: 3000px;
+    background-color: white;
+    font-size: 80px;
+    color: lightslategray;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    
+}
+
+.leaftsearch{
+    height: 300px;
+    width: 3000px;
+    display: flex;
+}
+
+.rightsearch{
+   
+    padding-left: 1550px;
+    font-size: 150px;
+    
+
+}
+
+.innerrightsearch{
+    height: 300px;
+    width: 1000px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    padding-top: 30px;
+    padding-left: 40px;
+    color: white;
+}
